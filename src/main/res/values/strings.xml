@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App and Activity Titles -->
+    <string name="app_name">HighwayAssistance</string>
+    <string name="title_activity_navigations">Navigations</string>
+
+    <!-- Navigation Drawer Open/Close Descriptions -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation Header Information -->
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- General Actions -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Item Titles -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_profile_medicaldetails">Profile Medical Details</string>
+    <string name="menu_send_sms">Send SMS</string>
+    <string name="menu_location_track">Location Track</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_weather">Weather</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_report_issue">Report Issue</string>
+
+    <string-array name="emergency_numbers">
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>108</item>
+    </string-array>
+
+
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+</resources>

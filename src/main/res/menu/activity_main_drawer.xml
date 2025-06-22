@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <!-- Home -->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <!-- Gallery -->
+
+        <!-- Profile Medical Details -->
+        <item
+            android:id="@+id/nav_profile_medicaldetails"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/menu_profile_medicaldetails" />
+
+        <!-- Send SMS -->
+        <item
+            android:id="@+id/nav_sendsms"
+            android:icon="@drawable/baseline_message_24"
+            android:title="@string/menu_send_sms" />
+
+        <!-- Location Track -->
+        <item
+            android:id="@+id/nav_locationtrack"
+            android:icon="@drawable/baseline_add_location_24"
+            android:title="@string/menu_location_track" />
+
+        <!-- Call -->
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/baseline_call_24"
+            android:title="@string/menu_call" />
+
+        <!-- Map -->
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/baseline_map_24"
+            android:title="@string/menu_map" />
+
+        <!-- Weather -->
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/baseline_cloudy_snowing_24"
+            android:title="@string/menu_weather" />
+
+        <!-- Settings -->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_brightness_high_24"
+            android:title="@string/menu_settings" />
+
+        <!-- Report Issue -->
+        <item
+            android:id="@+id/nav_reportissue"
+            android:icon="@drawable/baseline_report_24"
+            android:title="@string/menu_report_issue" />
+    </group>
+</menu>

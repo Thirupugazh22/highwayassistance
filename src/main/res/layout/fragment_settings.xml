@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/settings_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="60dp"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#FFFF"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Toggle switch for enabling a feature -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enable Feature"
+            android:textColor="#FFFF"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchEnableFeature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Change Password option -->
+    <TextView
+        android:id="@+id/optionChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Change Password"
+        android:textColor="#FFFF"
+        android:textSize="16sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true" />
+
+    <!-- Notifications option -->
+    <TextView
+        android:id="@+id/optionNotifications"
+        android:layout_width="match_parent"
+        android:textColor="#FFFF"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Notifications"
+        android:textSize="16sp" />
+
+</LinearLayout>

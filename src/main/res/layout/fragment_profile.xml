@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/profile_bgg">
+
+    <!-- Profile Image (Placeholder for Profile Photo) -->
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <!-- Button to Upload or Capture Image -->
+
+    <!-- Name EditText (Get Details) -->
+
+    <!-- Name TextView (Display Details) -->
+
+    <!-- Blood Group EditText (Get Details) -->
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload / Capture Image"
+        android:textColor="#ED094D"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:backgroundTint="#5CF6C8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <!-- Blood Group TextView (Display Details) -->
+
+    <!-- Phone EditText (Get Details) -->
+
+    <!-- Phone TextView (Display Details) -->
+
+    <!-- Toggle Button (Switch Between View and Edit Modes) -->
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:enabled="true"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF0000"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="244dp"
+        android:layout_height="21dp"
+        android:enabled="false"
+        android:text="John Doe"
+        android:textColor="#ED0909"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <EditText
+        android:id="@+id/edtBloodGroup"
+        android:layout_width="230dp"
+        android:layout_height="38dp"
+        android:enabled="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter Blood Group"
+        android:textColorHint="#FF0000"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/tvBloodGroup"
+        android:layout_width="277dp"
+        android:layout_height="25dp"
+        android:enabled="false"
+        android:text="O+"
+        android:textColor="#ED0909"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="247dp"
+        android:layout_height="38dp"
+        android:enabled="true"
+        android:hint="Enter Phone Number"
+        android:background="@drawable/edit_text_background"
+        android:inputType="phone"
+        android:textColorHint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="287dp"
+        android:layout_height="25dp"
+        android:enabled="false"
+        android:text="123-456-7890"
+        android:textColor="#ED0909"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="149dp"
+        android:layout_height="54dp"
+        android:text="EditMode"
+        android:textSize="20dp"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#EF0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textColor="#F40303"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:backgroundTint="#4BE25A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

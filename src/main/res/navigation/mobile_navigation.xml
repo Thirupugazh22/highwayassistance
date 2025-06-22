@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.prasanth.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_profile_medicaldetails"
+        android:name="com.example.prasanth.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_sendsms"
+        android:name="com.example.prasanth.SmsFragment"
+        android:label="Send-SMS"
+        tools:layout="@layout/fragment_sms" />
+    <fragment
+        android:id="@+id/nav_locationtrack"
+        android:name="com.example.prasanth.LocationFragment"
+        android:label="LocationShare"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/nav_call"
+        android:name="com.example.prasanth.CallFragment"
+        android:label="makecall"
+        tools:layout="@layout/fragment_call" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.prasanth.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.example.prasanth.WeatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.prasanth.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_reportissue"
+        android:name="com.example.prasanth.ReportissueFragment"
+        android:label="ReportIssue"
+        tools:layout="@layout/fragment_reportissue" />
+</navigation>

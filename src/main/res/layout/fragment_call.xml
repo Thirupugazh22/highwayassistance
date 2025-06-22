@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_profile">
+
+    <!-- ListView to show emergency numbers -->
+    <ListView
+        android:id="@+id/listViewEmergencyNumbers"
+        android:layout_width="257dp"
+        android:layout_height="341dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call reference"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#F80808"
+        android:paddingTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="100-police"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#03A9F4"
+        android:paddingTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="101=Fire"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#03A9F4"
+        android:paddingTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="102-Ambulance"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#03A9F4"
+        android:paddingTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="108-Medical Helpline"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aovelsansroundedrddl"
+        android:textColor="#03A9F4"
+        android:paddingTop="8dp"/>
+</LinearLayout>
